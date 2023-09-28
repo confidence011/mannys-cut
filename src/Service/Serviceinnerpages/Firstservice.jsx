@@ -3,12 +3,13 @@ import React from 'react'
  import frontal2 from '../../assets/frontal2.webp'
   import lowcut from '../../assets/lowcut.jpg'
   import tint2 from '../../assets/tint2.webp'
- import ff from '../../assets/ff.jpg'
+ import ff from '../../assets/facial.jpg'
  import {Link} from 'react-router-dom'
 //import manny from '../../assets/manny.jpg'
 import ooo from '../../assets/ooo.webp'
 import nail3 from '../../assets/nail3.jpg'
 import mani from '../../assets/massage-foot.jpg'
+import lock22 from '../../assets/lock222.jpeg'
 
 
 const Firstservice = () => {
@@ -163,8 +164,28 @@ const Firstservice = () => {
                       <Link to='/book'>
                       <button className='py-3 px-3 sm:w-[60%] my-4 bg-black text-white rounded-lg hover:bg-slate-900'>Book Now</button></Link>
                       </div>    
+
   
                   </div>
+
+                  <div className='flex'>
+                    
+                    <div className='w-7 mr-4 text-green-600'>
+                        
+                      </div>
+  
+                      <div>
+                      <h3 className='font-bold text-2xl text-center pt-1 pb-2 uppercase'> Dreadlock</h3>
+                      {/* <p className='text-lg pt-2 pb-4'> In today's digital economy, brands and businesses must deliver visually rich media experiences across all digital channels to meet the expectations of modern consumers</p> */}
+                      <img src={lock22} className='' alt="braid" />
+                      <Link to='/book'>
+                      <button className='py-3 px-3 sm:w-[60%] my-4 bg-black text-white rounded-lg hover:bg-slate-900'>Book Now</button></Link>
+                      </div>    
+
+  
+                  </div>
+
+                  
 
                 
 
