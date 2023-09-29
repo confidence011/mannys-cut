@@ -1,7 +1,7 @@
 import React from 'react'
 // import salon from '../../assets/salon img.jpg';
  import frontal2 from '../../assets/frontal2.webp'
-  import lowcut from '../../assets/lowcut.jpg'
+  import lowcut from '../../assets/Lowcut.jpg'
   import tint2 from '../../assets/tint2.webp'
  import ff from '../../assets/facial.jpg'
  import {Link} from 'react-router-dom'
@@ -19,7 +19,7 @@ const Firstservice = () => {
 
 
         <h2 className='text-5xl font-bold text-center p-16 pb-1'> Our services </h2>
-        <p className='text-2xl py-8 text-gray-500 text-center'> We render Exclusive Services  </p>
+        <p className='text-2xl py-8 text-gray-500 text-center'> We Render Exclusive Services  </p>
 
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4'>
 
