@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { AiFillGithub} from 'react-icons/ai'
 import {BsInstagram} from 'react-icons/bs'
 import {FaTiktok} from 'react-icons/fa'
 import {BiLogoWhatsappSquare} from 'react-icons/bi'
@@ -21,10 +20,10 @@ const Footer = () => {
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-5 border-b-2 border-gray-600 py-8'>
 
             <div>
-                <h6 className='font-bold uppercase pt-2'>Other Links</h6>
+                <h6 className='font-bold uppercase pt-2'> Links</h6>
                 <ul>
                     
-                 <Link to='/about'>   <li className='py-1'>About</li></Link>
+                 <Link to='/about'> <li className='py-1'>About</li></Link>
                 <Link to='/services'> <li className='py-1'>Services</li></Link>
                 <Link to='/booking'>    <li className='py-1'>Bookings</li></Link>
                     <div>
@@ -45,7 +44,7 @@ const Footer = () => {
                     <li className='py-1'>Thurs: 10am to 8pm</li>
                     <li className='py-1'>Fri-Sat: 9am to 8pm</li>
                     <li className='py-1'>Tel:+2348107173669</li>
-                    <li className='py-1'>Shop Address: #49 Obiwali,Rumuigbo Rd PH</li>
+                    <li className='py-1'>Shop Address: #49 Obiwali,Rumuigbo Rd PH.</li>
                 </ul>
             </div>
 
@@ -56,7 +55,7 @@ const Footer = () => {
             </div>  */}
 
           
-            <div className='col-span-2 pt-8 mt-8 md:pt-2'>
+            <div className='col-span-2 pt-8 mt-8 md:pt-16'>
                 <p className='font-bold uppercase'>Subcribe for ammazing offers</p>
                 <p className='py-4'>The letest deals and disconts</p>
 

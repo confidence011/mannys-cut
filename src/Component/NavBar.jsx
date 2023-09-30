@@ -22,7 +22,7 @@ const NavBar = () => {
         <h1 className='text-4xl font-bold mr-4 sm:text-3xl flex'> <img src={logo} className='w-8 h-10 mr-2' alt="logo" />Manny's Cut</h1>
 
         <ul className='hidden md:flex gap-7 font-bold text-2xl px-40'>
-                  <Link to='home/'><li>Home</li></Link>    
+                  <Link to='/'><li>Home</li></Link>    
                    <Link to='/about'> <li>About</li> </Link>
                     <Link to='/services'><li>Services</li></Link>
                     <Link to='/book'><li>Bookings</li></Link>
@@ -46,7 +46,7 @@ const NavBar = () => {
 
       
       <ul className={!nav ? 'hidden' : ' w-[100%] px-8 bg-slate-900  '} onClick={toggle}>
-         <Link to='/home'>
+         <Link to='/'>
           <li className='border-b-2 py-3 border-black-300 w-full text-white '>Home</li></Link>
          <Link to='/about'> <li className='border-b-2 py-3 border-black-300 w-full text-white '>About</li></Link>
          <Link to='/services'> <li className='border-b-2 py-3 border-black-300 w-full text-white'>Services</li></Link>

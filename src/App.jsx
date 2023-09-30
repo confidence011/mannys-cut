@@ -6,9 +6,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './Pages/About';
 import OurBookings from './Appointment/Innerappoint/OurBookings';
 import Firstservice from './Service/Serviceinnerpages/Firstservice';
+import Homme from './Pages2/Aboutpage/Homme';
 // import Log from './Component/Innerlog/log';
 // import Signup from './Log/Inner/Signup';
-import Homme from './Pages2/Aboutpage/Homme';
+
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
 
       <NavBar/>
 <Routes>
-  <Route path='/home' element={<Homme/>}/>
+  <Route path='/' element={<Homme/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/services' element={<Firstservice/>}/>
   <Route path='/Bookings' element={<OurBookings/>}/>
